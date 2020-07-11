@@ -17,7 +17,7 @@ LIB := # -pthread -lmongoclient -L lib -lboost_thread-mt -lboost_filesystem-mt -
 INC := -I include
 
 $(TARGET): $(OBJECTS)
-  @echo " Linking..."
+  @echo " Linking...";
   @echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
