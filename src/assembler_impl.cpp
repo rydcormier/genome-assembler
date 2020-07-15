@@ -12,7 +12,7 @@ using std::map;
 using std::string;
 using std::vector;
 
-map<string, int> Assembler::HashTable { nullptr };
+map<string, int>* Assembler::HashTable { nullptr };
 
 vector<int> Assembler::PostOrder() { return vector<int> {}; }
 

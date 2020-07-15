@@ -7,8 +7,8 @@
 //
 #include <iostream>
 
-int main()
+int main(int argc, char **argv)
 {
-    // TODO: everything
+    std::cout << "Hello, World!\n";
     return 0;
 }

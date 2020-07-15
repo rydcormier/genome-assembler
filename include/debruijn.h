@@ -20,7 +20,7 @@ struct Vertex
     int pos { -1 };
     int key { -1 };
     int indeg, outdeg;
-    std::string label() const;
+    std::string Label() const;
 };
 extern int V;
 extern int E;

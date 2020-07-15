@@ -16,7 +16,7 @@ using std::vector;
 
 int Assembler::NUM_READS = 0;
 int Assembler::READ_LENGTH = 0;
-vector<string> Assembler::Reads {};
+vector<string> Assembler::READS {};
 
 string Assembler::Assemble() { return ""; }
 

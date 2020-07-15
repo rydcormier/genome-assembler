@@ -9,7 +9,6 @@
 #include "debruijn.h"
 #include "assembler.h"
 
-using std::map;
 using std::string;
 using std::vector;
 
