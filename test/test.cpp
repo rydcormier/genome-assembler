@@ -1,7 +1,9 @@
 //
+//  test/test.cpp
+//
+//  Tests go here.
+//
 #include "gtest/gtest.h"
-#include "assembler.h"
-#include "debruijn.h"
 
 
 TEST( TestTest, isGoogleTestWorking )
