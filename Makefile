@@ -29,7 +29,7 @@ clean:
 	@echo " $(RM) -r $(BUILDDIR) $(TARGET)"; $(RM) -r $(BUILDDIR) $(TARGET)
 
 # Tests
-test:
+tests:
 	$(CC) $(CFLAGS) test/test.cpp $(INC) $(LIB) -o bin/test
 
 .PHONY: clean

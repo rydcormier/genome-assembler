@@ -17,6 +17,7 @@ namespace Assembler {
     extern int NUM_READS;
     extern int READ_LENGTH;
     extern std::vector<std::string> READS;
+    extern int K;
     std::string Assemble();
     void BuildGraph();
     void ReadInput();
