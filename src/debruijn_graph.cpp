@@ -10,7 +10,7 @@
 
 using std::string;
 using std::vector;
-using Genome::Graph;
+using Graph = Assembler::DeBruijnGraph;
 using Vertex = Graph::Vertex;
 
 string Vertex::Label() const { return {}; } // TODO

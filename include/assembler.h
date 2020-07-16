@@ -5,7 +5,7 @@
 //  Author: Ryan Cormier <rydcormier@gmail.com>
 //  Date:   07/11/2020
 //
-//	Basic interface for genome-assembler.
+//	User interface for genome-assembler.
 
 #ifndef assembler_h
 #define assembler_h

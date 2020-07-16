@@ -6,7 +6,7 @@
 //  Date:   7/11/2020
 //
 #include <iostream>
-#include "genome_assemler.h"
+#include "assembler.h"
 
 int main( int argc, char **argv )
 {
