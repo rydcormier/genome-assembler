@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['in_5fdegree_6',['in_degree',['../struct_genome_1_1_graph_1_1_vertex.html#adfdad43771a6bf53e7fbfcc532346136',1,'Genome::Graph::Vertex']]]
+  ['graph_6',['Graph',['../namespace_assembler.html#aced6f2a8fc60262fa2da55f3fa19e203',1,'Assembler']]],
+  ['genome_2dassembler_7',['genome-assembler',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

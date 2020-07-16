@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['graph_26',['graph',['../struct_genome_1_1_assembler.html#a0312eee8e756d867ce7dc7025c3a456c',1,'Genome::Assembler']]]
+  ['graph_29',['Graph',['../namespace_assembler.html#aced6f2a8fc60262fa2da55f3fa19e203',1,'Assembler']]]
 ];

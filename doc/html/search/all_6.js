@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['label_9',['Label',['../struct_genome_1_1_graph_1_1_vertex.html#a8edb689d83a3bb43f9cdc83c32ac4f22',1,'Genome::Graph::Vertex']]]
+  ['k_9',['K',['../struct_assembler_1_1_de_bruijn_graph.html#a8285f5aeb1745465491193449c177549',1,'Assembler::DeBruijnGraph']]],
+  ['key_10',['key',['../struct_assembler_1_1_de_bruijn_graph_1_1_vertex.html#a5b33f43d521d487b852d8a288645b7fc',1,'Assembler::DeBruijnGraph::Vertex']]]
 ];

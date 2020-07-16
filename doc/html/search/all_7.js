@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['num_5freads_10',['num_reads',['../struct_genome_1_1_assembler.html#afac8efec70e600aa6d7b8a8f1b51c917',1,'Genome::Assembler']]]
+  ['label_11',['Label',['../struct_assembler_1_1_de_bruijn_graph_1_1_vertex.html#a8edb689d83a3bb43f9cdc83c32ac4f22',1,'Assembler::DeBruijnGraph::Vertex']]]
 ];

@@ -41,7 +41,7 @@ struct DeBruijnGraph
 	std::vector< std::vector<int>> Edges;
 	int K; /**< The k-mer size. */
 
-	/**< populate an adjacency list or its inverse, omitting self-loops and parallel edges. */
+	/** populate an adjacency list or its inverse, omitting self-loops and parallel edges. */
 	void Adjacencies( std::vector< std::vector<int>>& adj, bool inv = false );
 	
 }; /* DeBruijnGraph */
