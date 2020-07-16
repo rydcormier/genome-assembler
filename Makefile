@@ -16,6 +16,9 @@ CFLAGS := -pipe -O2 -std=c++14 # -Wall
 LIB := -lgtest -lgtest_main # -pthread -lmongoclient -L lib -lboost_thread-mt -lboost_filesystem-mt -lboost_system-mt
 INC := -I include
 
+DOC_EX := doxygen
+DOC_CONFIG := doc/Doxyfile
+
 $(TARGET): $(OBJECTS)
 	@echo " Linking...";
 	@echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
@@ -31,5 +34,10 @@ clean:
 # Tests
 tests:
 	$(CC) $(CFLAGS) test/test.cpp $(INC) $(LIB) -o bin/test
+    
+# Documentation
+docs:
+	@echo "Generating docs...";
+	$(DOC_EX) $(DOC_CONFIG)
 
 .PHONY: clean
