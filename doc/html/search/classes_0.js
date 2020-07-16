@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['assembler_18',['Assembler',['../struct_genome_1_1_assembler.html',1,'Genome']]]
+  ['debruijngraph_20',['DeBruijnGraph',['../struct_assembler_1_1_de_bruijn_graph.html',1,'Assembler']]]
 ];

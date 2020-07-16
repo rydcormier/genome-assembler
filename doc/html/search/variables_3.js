@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['num_5freads_30',['num_reads',['../struct_genome_1_1_assembler.html#afac8efec70e600aa6d7b8a8f1b51c917',1,'Genome::Assembler']]]
+  ['numreads_33',['NumReads',['../namespace_assembler.html#a941f2593dcfedac2f54b817f6fc30343',1,'Assembler']]]
 ];

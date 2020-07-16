@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['in_5fdegree_27',['in_degree',['../struct_genome_1_1_graph_1_1_vertex.html#adfdad43771a6bf53e7fbfcc532346136',1,'Genome::Graph::Vertex']]]
+  ['in_5fdegree_30',['in_degree',['../struct_assembler_1_1_de_bruijn_graph_1_1_vertex.html#a77ac04b9bc06678fa901f160e304e568',1,'Assembler::DeBruijnGraph::Vertex']]]
 ];

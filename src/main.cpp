@@ -6,6 +6,7 @@
 //  Date:   7/11/2020
 //
 #include <iostream>
+#include "assembler.h"
 
 int main( int argc, char **argv )
 {
