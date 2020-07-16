@@ -12,13 +12,13 @@
 #include <string>
 #include <vector>
 
-namespace Genome 
+namespace Assembler 
 {
 /** A De Bruijn Graph.
  *
  *	TODO: class description.
  */
-struct Graph 
+struct DeBruijnGraph 
 {
 	/** A De Bruijn Graph vertex. 
 	 *
@@ -44,8 +44,8 @@ struct Graph
 	/**< populate an adjacency list or its inverse, omitting self-loops and parallel edges. */
 	void Adjacencies( std::vector< std::vector<int>>& adj, bool inv = false );
 	
-}; /* Graph */
+}; /* DeBruijnGraph */
 	
-} /* Genome */
+} /* Assembler */
 
 # endif /* debruijn_graph_h */

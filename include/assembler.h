@@ -1,5 +1,5 @@
 //
-//  genome_assembler.h
+//  assembler.h
 //  genome-assembler
 //
 //  Author: Ryan Cormier <rydcormier@gmail.com>
@@ -7,28 +7,26 @@
 //
 //	Basic interface for genome-assembler.
 
-#ifndef genome_assembler_h
-#define genome_assembler_h
+#ifndef assembler_h
+#define assembler_h
 
 #include <string>
 #include <vector>
 
 #include "debruijn_graph.h"
 
-namespace Genome {
  
-	/**
-  *	@class Assembler
-  *	@breif The genome assembler.
-  *
-  *	TODO: class description
-  */
-struct Assembler
+/** 
+ * The genome assembler.
+ *
+ *	TODO: description
+ */
+namespace Assembler
 {
-	static int num_reads;	/**< Number of reads in the data set. */
-	static int read_length;	/**< The length of each read; if they are equal. */
-	static std::vector<std::string> reads;	/**< The set of reads as strings. */
-	static Graph graph;	/**< A De Bruijn graph. */
+	extern int NumReads;	/**< Number of reads in the data set. */
+	extern int ReadLength;	/**< The length of each read; if they are equal. */
+	extern std::vector<std::string> Reads;	/**< The set of reads as strings. */
+	extern DeBruijnGraph Graph;	/**< A De Bruijn graph. */
 	
 	
 	
@@ -44,8 +42,6 @@ struct Assembler
 	/** Assemble the genome from the read set and return as a string. */
 	std::string AssembleGenome();
 	
-}; /* Assembler */
+} /* Assembler */
 
-} /* Genome */
-
-#endif /* genome_assembler_h */
+#endif /* assembler_h */

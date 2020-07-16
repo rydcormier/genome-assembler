@@ -1,5 +1,5 @@
 //
-//  genome_assembler.cpp
+//  assembler.cpp
 //  genome-assembler
 //
 //  Author: Ryan Cormier <rydcormier@gmail.com>
@@ -7,17 +7,17 @@
 //
 //	Implementation for Genome::Assembler.
 
-#include "genome_assembler.h"
+#include "assembler.h"
 #include "debruijn_graph.h"
 
 using std::vector;
 using std::string;
-using Genome::Assembler;
 
 // define static variables
-int Assembler::num_reads { 0 };
-int Assembler::read_length { 0 };
-vector<string> Assembler::reads {};
+int Assembler::NumReads { 0 };
+int Assembler::ReadLength { 0 };
+vector<string> Assembler::Reads {};
+Assembler::DeBruijnGraph Assembler::Graph {};
 
 
 void Assembler::ReadInput( const char* fp ) {} // TODO
