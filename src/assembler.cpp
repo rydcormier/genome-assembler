@@ -26,4 +26,6 @@ void Assembler::BuildGraph( int k_size ) {} // TODO
 
 void Assembler::CorrectErrors( int path_len_max ) {} // TODO
 
-string Assembler::AssembleGenome( ) { return {}; }
+string Assembler::AssembleGenome( ) { return {}; } // TODO
+
+string Assembler::Run(int argc, char **argv) { return {}; } // TODO

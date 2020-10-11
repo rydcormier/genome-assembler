@@ -13,6 +13,8 @@ using std::vector;
 using Graph = Assembler::DeBruijnGraph;
 using Vertex = Graph::Vertex;
 
-string Vertex::Label() const { return {}; } // TODO
+int Graph::K = 0;
+
+string Vertex::Label() const { return ""; } // TODO
 
 void Graph::Adjacencies( vector< vector<int>>& adj, bool inv ) {} // TODO
